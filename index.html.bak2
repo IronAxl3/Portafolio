@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiron Axl Ortega Yucra - Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Hiron Axl Ortega Yucra</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#judo">Judo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hola, soy Hiron Axl</h1>
+                    <p class="subtitle">Estudiante de Computación Científica en la UNMSM</p>
+                    <p class="description">Apasionado por la programación, el diseño web y el Judo</p>
+                    <a href="#" class="btn btn-primary">Descargar CV</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile/yo.jpeg" alt="Hiron Axl Ortega Yucra" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un apasionado estudiante de Computación Científica en la Universidad Nacional Mayor de San Marcos (UNMSM). Desde pequeño me ha interesado la tecnología y cómo esta puede ser utilizada para resolver problemas complejos.</p>
+                    <p>Además de mi pasión por la programación, soy un ávido practicante de Judo, deporte que practico desde hace varios años y que me ha enseñado disciplina, perseverancia y trabajo en equipo.</p>
+                    <p>Mi objetivo es combinar mis conocimientos en computación con mi pasión por la resolución de problemas para crear soluciones innovadoras que tengan un impacto positivo en la sociedad.</p>
+                </div>
+                <div class="about-image">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12436.837619432732!2d-77.0837277!3d-12.0605098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c946680d0099%3A0xc6def8804064a4e9!2sUniversidad%20Nacional%20Mayor%20de%20San%20Marcos!5e1!3m2!1ses!2spe!4v1755816253484!5m2!1ses!2spe" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>PostgreSQL</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Frontend</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Backend</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Sistemas Operativos</span>
+                        <span class="skill-percent">82%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="82"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Ciberseguridad</span>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiencia en Números</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="counter" data-target="15">0</h3>
+                    <p>Proyectos Realizados</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3 class="counter" data-target="3">0</h3>
+                    <p>Años en la Universidad</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3 class="counter" data-target="5">0</h3>
+                    <p>Años en Judo</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="counter" id="visit-counter" data-target="1">0</h3>
+                    <p>Visitas a la Página</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/proyecto-catering.jpeg" alt="Página Web de Catering" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Página Web de Catering</h3>
+                        <p>Diseño y desarrollo de una página web moderna para un servicio de catering con menú interactivo y sistema de reservas.</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/proyecto-lenguaje-senas.jpeg" alt="Lenguaje de Señas con Cámara" loading="lazy" class="project-image-sign">
+                    </div>
+                    <div class="project-content">
+                        <h3>Lenguaje de Señas con Cámara</h3>
+                        <p>Aplicación que utiliza visión por computadora para interpretar el lenguaje de señas en tiempo real.</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/proyecto-gestion-escolar.jpg" alt="Sistema de Gestión Escolar" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Gestión Escolar</h3>
+                        <p>Plataforma web para la gestión académica de instituciones educativas con módulos para estudiantes, docentes y administradores.</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Judo -->
+    <section id="judo" class="judo">
+        <div class="container">
+            <h2 class="section-title">Judo</h2>
+            <div class="judo-content">
+                <div class="judo-text">
+                    <p>Formo parte de la selección de Judo de la UNMSM, donde he tenido la oportunidad de representar a mi universidad en diversas competencias a nivel nacional. El judo no solo es un deporte para mí, sino una filosofía de vida que me ha enseñado valores fundamentales como el respeto, la disciplina y la superación personal.</p>
+                    <p>He obtenido varias medallas en competencias universitarias y continúo entrenando constantemente para mejorar mi técnica y condición física.</p>
+                </div>
+                <div class="judo-gallery">
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="images/judo/judo-1.jpeg" alt="Judo 1" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/judo/judo-2.jpeg" alt="Judo 2" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/judo/judo-3.jpeg" alt="Judo 3" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/judo/judo-4.jpeg" alt="Judo 4" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="judo-video">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+                <div class="contact-info">
+                    <h3>¡Trabajemos juntos!</h3>
+                    <p>Si tienes alguna pregunta o deseas discutir un proyecto, no dudes en contactarme a través de cualquiera de estos medios:</p>
+                    <div class="social-links">
+                        <a href="https://github.com/tuusuario" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/tuperfil" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:tuemail@example.com" class="social-link">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Hiron Axl Ortega Yucra. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre Mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
