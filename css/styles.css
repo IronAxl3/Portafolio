@@ -1,6 +1,6 @@
-/* Global Styles */
+/* Estilos globales */
 :root {
-    /* Light Theme Colors */
+    /* Tema de color claro */
     --primary-color: #2563eb;
     --primary-hover: #1d4ed8;
     --secondary-color: #4b5563;
@@ -12,7 +12,7 @@
     --transition: all 0.3s ease;
 }
 
-/* Dark Theme Colors */
+/* Tema de color oscuro */
 [data-theme="dark"] {
     --primary-color: #3b82f6;
     --primary-hover: #60a5fa;
@@ -190,7 +190,7 @@ img {
     letter-spacing: 1px;
 }
 
-/* Navigation Links */
+/* Enlaces de navegación */
 .nav-links {
     display: flex;
     list-style: none;
@@ -313,7 +313,7 @@ img {
     bottom: -8px;
 }
 
-/* Active state for hamburger */
+/* Activar hamburger */
 .hamburger[aria-expanded="true"] .hamburger-inner {
     transform: rotate(45deg);
 }
@@ -326,7 +326,6 @@ img {
     opacity: 0;
 }
 
-/* Screen reader only class */
 .sr-only {
     position: absolute;
     width: 1px;
@@ -935,7 +934,7 @@ img {
     box-shadow: var(--shadow);
 }
 
-/* Skills Section */
+/* Habilidades Section */
 .skills {
     background-color: var(--bg-secondary);
     padding: 5rem 0;
